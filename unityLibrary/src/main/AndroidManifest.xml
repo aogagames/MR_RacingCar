@@ -48,7 +48,7 @@
     <meta-data android:name="enable_spatial_anchor" android:value="0" />
     <meta-data android:name="enable_cloud_anchor" android:value="0" />
     <meta-data android:name="enable_mesh_anchor" android:value="0" />
-    <meta-data android:name="enable_scene_anchor" android:value="0" />
+    <meta-data android:name="enable_scene_anchor" android:value="1" />
     <meta-data android:name="enable_plane_detection" android:value="0" />
     <meta-data android:name="pvr.SuperResolution" android:value="0" />
     <meta-data android:name="pvr.NormalSharpening" android:value="0" />
@@ -59,4 +59,5 @@
     <meta-data android:name="controller" android:value="1" />
   </application>
   <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <uses-permission android:name="com.picovr.permission.SPATIAL_DATA" />
 </manifest>
